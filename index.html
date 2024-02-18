@@ -52,9 +52,9 @@
         </div>
 
         <!-- Banner section -->
-        <div class="bg-[url(images/banner.png)] bg-no-repeat bg-center text-center  mx-4 mb-48">
+        <div class="bg-[url(images/banner.png)] bg-no-repeat bg-center text-center h-[550px] lg:h-auto mx-4 ">
             <!-- banner title -->
-            <div class="flex flex-col gap-5  justify-center h-[550px] ">
+            <div class="flex flex-col gap-5 lg:h-[550px]  justify-center  ">
                 <h1 class="text-2xl md:text-5xl lg:text-7xl font-extrabold text-white">End-to-End Travel with <br> <span
                         class="text-[#1DD100]">SwiftWay Paribahan</span></h1>
                 <p class="font-inter text-white">Welcome to SwiftWay Paribahan your convenient and reliable solution for
@@ -64,20 +64,20 @@
                 </div>
             </div>
             <!-- banner stat -->
-            <div class="space-x-20">
+            <div class="lg:space-x-20 flex flex-col lg:flex-row lg:justify-center mt-4  gap-5 lg:gap-0  ">
                 <div class="stats shadow border-b-2 border-[#1DD100]">
                     <div class="stat">
                         <div class="text-3xl font-inter font-bold text-black flex gap-2">
-                        <img src="images/people.png" alt="">
+                            <img src="images/people.png" alt="">
                             <span>500K+</span>
                         </div>
                         <div class="stat-desc ml-12 mt-[-20px] ">Registered users</div>
                     </div>
                 </div>
-                <div class="stats shadow border-b-2 border-[#1DD100]">
+                <div class="stats shadow border-b-2 border-[#1DD100] ">
                     <div class="stat">
                         <div class="text-3xl font-inter font-bold text-black flex   gap-2">
-                        <img src="images/ticket-cupon.png" alt="">
+                            <img src="images/ticket-cupon.png" alt="">
                             <span>1.7 lacks</span>
                         </div>
                         <div class="stat-desc ml-12 mt-[-20px] ">Tickets sold</div>
@@ -86,7 +86,7 @@
                 <div class="stats shadow border-b-2 border-[#1DD100]">
                     <div class="stat">
                         <div class="text-3xl font-inter font-bold text-black flex   gap-2">
-                        <img src="images/stoppage.png" alt="">
+                            <img src="images/stoppage.png" alt="">
                             <span>80K+</span>
                         </div>
                         <div class="stat-desc ml-16 mt-[-20px] ">Rental partners</div>
@@ -95,6 +95,44 @@
             </div>
         </div>
     </header>
+    <main>
+        <!-- offer section -->
+        <div class="mt-20 mb-28  ">
+            <h1 class="text-4xl font-bold text-center">Best offer for you</h1>
+            <!-- offer card container -->
+            <div class="lg:flex justify-center gap-10">
+                <!-- offer card 1 -->
+                <div class="lg:w-[573px] h-56 bg-[#FFBF0F] rounded-xl  relative lg:flex items-center mt-10 p-5 lg:p-0">
+                    <div class="lg:absolute font-inter left-10 ">
+                        <h1 class="text-5xl font-extrabold text-[#030712CC]">15%OFF</h1>
+                        <p class="text-2xl font-semibold text-[#030712CC]">On your next purchase</p>
+                        <p class="text-xl font-medium text-[#03071280]">Use by January 2024</p>
+                    </div>
+                    <img class="absolute left-80 h-full hidden lg:visible" src="images/cupon-devider.png" alt="">
+                    <div class="lg:absolute left-96">
+                        <h1 class="text-3xl font-bold text-[#030712CC]">NEW15</h1>
+                        <p class="text-xl font-medium text-[#03071280]">coupon code</p>
+                    </div>
+                </div>
+                <!-- offer card 2 -->
+                <div class="lg:w-[573px] h-56 bg-[#F78C9C] rounded-xl  relative lg:flex items-center mt-10 p-5 lg:p-0">
+                    <div class="lg:absolute font-inter left-10 ">
+                        <h1 class="text-5xl font-extrabold text-[#030712CC]">20%OFF</h1>
+                        <p class="text-2xl font-semibold text-[#030712CC]">On your next purchase</p>
+                        <p class="text-xl font-medium text-[#03071280]">Use by January 2024</p>
+                    </div>
+                    <img class="absolute left-80 h-full hidden lg:visible" src="images/cupon-devider.png" alt="">
+                    <div class="lg:absolute left-96">
+                        <h1 class="text-3xl font-bold text-[#030712CC]">coupon</h1>
+                        <p class="text-xl font-medium text-[#03071280]">coupon code</p>
+                    </div>
+                </div>
+            </div>
+            <!-- offer card container end -->
+            <div class="flex justify-center mt-10">
+            <button class="btn  text-[#1DD100] bg-transparent border-[#1DD100]"> See All Offer</button>
+            </div>
+        </div>
+    </main>
 </body>
-
 </html>
