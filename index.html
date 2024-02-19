@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="Styles/style.css">
 </head>
 
-<body class="font-releway">
+<body class="font-releway ">
     <header>
         <!-- Navbar section -->
         <div class="navbar bg-base-100 lg:flex lg:w-11/12 lg:mx-auto">
@@ -60,9 +60,12 @@
                 <p class="font-inter text-white">Welcome to SwiftWay Paribahan your convenient and reliable solution for
                     purchasing tickets for all your travel needs. </p>
                 <div>
+                    <a href="#ticket-form">
                     <button class="btn bg-[#1DD100] border-none hover:bg-[#1DD100E6] font-bold">Buy Ticket</button>
+                    </a>
                 </div>
             </div>
+            <a href=""></a>
             <!-- banner stat -->
             <div class="lg:space-x-20 flex flex-col lg:flex-row lg:justify-center mt-4  gap-5 lg:gap-0  ">
                 <div class="stats shadow border-b-2 border-[#1DD100]">
@@ -212,74 +215,74 @@
                             </div>
                             <div class="flex justify-between items-center lg:gap-20">
                                 A
-                                <button id="A1" class="seat-btn btn text-[#03071280] text-xl">A1</button>
-                                <button id="A2" class="seat-btn btn text-[#03071280] text-xl">A2</button>
-                                <button id="A3" class="seat-btn btn text-[#03071280] text-xl">A3</button>
-                                <button id="A4" class="seat-btn btn text-[#03071280] text-xl">A4</button>
+                                <button id="A1" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">A1</button>
+                                <button id="A2" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">A2</button>
+                                <button id="A3" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">A3</button>
+                                <button id="A4" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">A4</button>
                             </div>
                             <div class="flex justify-between items-center">
                                 B
-                                <button id="B1" class="seat-btn btn text-[#03071280] text-xl">B1</button>
-                                <button id="B2" class="seat-btn btn text-[#03071280] text-xl">B2</button>
-                                <button id="B3" class="seat-btn btn text-[#03071280] text-xl">B3</button>
-                                <button id="B4" class="seat-btn btn text-[#03071280] text-xl">B4</button>
+                                <button id="B1" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">B1</button>
+                                <button id="B2" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">B2</button>
+                                <button id="B3" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">B3</button>
+                                <button id="B4" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">B4</button>
                             </div>
                             <div class="flex justify-between items-center">
                                 C
-                                <button id="C1" class="seat-btn btn text-[#03071280] text-xl">C1</button>
-                                <button id="C2" class="seat-btn btn text-[#03071280] text-xl">C2</button>
-                                <button id="C3" class="seat-btn btn text-[#03071280] text-xl">C3</button>
-                                <button id="C4" class="seat-btn btn text-[#03071280] text-xl">C4</button>
+                                <button id="C1" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">C1</button>
+                                <button id="C2" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">C2</button>
+                                <button id="C3" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">C3</button>
+                                <button id="C4" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">C4</button>
                             </div>
                             <div class="flex justify-between items-center">
                                 D
-                                <button id="D1" class="seat-btn btn text-[#03071280] text-xl">D1</button>
-                                <button id="D2" class="seat-btn btn text-[#03071280] text-xl">D2</button>
-                                <button id="D3" class="seat-btn btn text-[#03071280] text-xl">D3</button>
-                                <button id="D4" class="seat-btn btn text-[#03071280] text-xl">D4</button>
+                                <button id="D1" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">D1</button>
+                                <button id="D2" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">D2</button>
+                                <button id="D3" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">D3</button>
+                                <button id="D4" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">D4</button>
                             </div>
                             <div class="flex justify-between items-center">
                                 E
-                                <button id="E1" class="seat-btn btn text-[#03071280] text-xl">E1</button>
-                                <button id="E2" class="seat-btn btn text-[#03071280] text-xl">E2</button>
-                                <button id="E3" class="seat-btn btn text-[#03071280] text-xl">E3</button>
-                                <button id="E4" class="seat-btn btn text-[#03071280] text-xl">E4</button>
+                                <button id="E1" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">E1</button>
+                                <button id="E2" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">E2</button>
+                                <button id="E3" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">E3</button>
+                                <button id="E4" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">E4</button>
                             </div>
                             <div class="flex justify-between items-center">
                                 F
-                                <button id="F1" class="seat-btn btn text-[#03071280] text-xl">F1</button>
-                                <button id="F2" class="seat-btn btn text-[#03071280] text-xl">F2</button>
-                                <button id="F3" class="seat-btn btn text-[#03071280] text-xl">F3</button>
-                                <button id="F4" class="seat-btn btn text-[#03071280] text-xl">F4</button>
+                                <button id="F1" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">F1</button>
+                                <button id="F2" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">F2</button>
+                                <button id="F3" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">F3</button>
+                                <button id="F4" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">F4</button>
                             </div>
 
                             <div class="flex justify-between items-center">
                                 G
-                                <button id="G1" class="seat-btn btn text-[#03071280] text-xl">G1</button>
-                                <button id="G2" class="seat-btn btn text-[#03071280] text-xl">G2</button>
-                                <button id="G3" class="seat-btn btn text-[#03071280] text-xl">G3</button>
-                                <button id="G4" class="seat-btn btn text-[#03071280] text-xl">G4</button>
+                                <button id="G1" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">G1</button>
+                                <button id="G2" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">G2</button>
+                                <button id="G3" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">G3</button>
+                                <button id="G4" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">G4</button>
                             </div>
                             <div class="flex justify-between items-center">
                                 H
-                                <button id="H1" class="seat-btn btn text-[#03071280] text-xl">H1</button>
-                                <button id="H2" class="seat-btn btn text-[#03071280] text-xl">H2</button>
-                                <button id="H3" class="seat-btn btn text-[#03071280] text-xl">H3</button>
-                                <button id="H4" class="seat-btn btn text-[#03071280] text-xl">H4</button>
+                                <button id="H1" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">H1</button>
+                                <button id="H2" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">H2</button>
+                                <button id="H3" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">H3</button>
+                                <button id="H4" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">H4</button>
                             </div>
                             <div class="flex justify-between items-center">
                                 I
-                                <button id="I1" class="seat-btn btn text-[#03071280] text-xl">I1</button>
-                                <button id="I2" class="seat-btn btn text-[#03071280] text-xl">I2</button>
-                                <button id="I3" class="seat-btn btn text-[#03071280] text-xl">I3</button>
-                                <button id="I4" class="seat-btn btn text-[#03071280] text-xl">I4</button>
+                                <button id="I1" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">I1</button>
+                                <button id="I2" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">I2</button>
+                                <button id="I3" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">I3</button>
+                                <button id="I4" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">I4</button>
                             </div>
                             <div class="flex justify-between items-center">
                                 J
-                                <button id="J1" class="seat-btn btn text-[#03071280] text-xl">J1</button>
-                                <button id="J2" class="seat-btn btn text-[#03071280] text-xl">J2</button>
-                                <button id="J3" class="seat-btn btn text-[#03071280] text-xl">J3</button>
-                                <button id="J4" class="seat-btn btn text-[#03071280] text-xl">J4</button>
+                                <button id="J1" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">J1</button>
+                                <button id="J2" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">J2</button>
+                                <button id="J3" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">J3</button>
+                                <button id="J4" onclick="clicked(this.id)" class="btn text-[#03071280] text-xl">J4</button>
                             </div>
 
                         </div>
@@ -296,15 +299,15 @@
                                 <p>Price</p>
                             </div>
                             <hr class="border-dashed border-[#03071233]">
-                            <div class="flex justify-between">
-                                <p>C2</p>
-                                <p>Economoy</p>
-                                <p>550</p>
+                            <div id="price-list" >
+                                <div id="hello" class="flex justify-between">
+
+                                </div>
                             </div>
                             <hr >
                             <div class="flex justify-between font-inter font-semibold">
                                 <p>Total</p>
-                                <p>BTD <span>550</span></p>
+                                <p>BTD <span id="total-ticket-price">0</span></p>
                             </div>
                         </div>
                     </div>
